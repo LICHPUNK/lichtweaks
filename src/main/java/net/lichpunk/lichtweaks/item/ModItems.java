@@ -10,15 +10,6 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, LichTweaks.MOD_ID);
 
-    /* SAMPLE ITEMS */
-
-    // Creating RegistryObject for "zircon" item
-    public static final RegistryObject<Item> ZIRCON = ITEMS.register("zircon",
-            () -> new Item(new Item.Properties()));
-
-    public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
-            () -> new Item(new Item.Properties()));
-
     /* CUSTOM ITEMS */
 
     // Creating RegistryObject for "moon_shard" item

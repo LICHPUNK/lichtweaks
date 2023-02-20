@@ -50,9 +50,7 @@ public class LichTweaks {
 
         // Add items to custom LichTweaks creative mode tab
         if(event.getTab() == ModCreativeModeTab.LICH_TAB) {
-            // SAMPLE ITEMS
-            event.accept(ModItems.ZIRCON);
-            event.accept(ModItems.RAW_ZIRCON);
+
             // CUSTOM ITEMS
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
@@ -74,8 +72,6 @@ public class LichTweaks {
 
         // Add items to existing INGREDIENTS creative mode tab
         if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RAW_ZIRCON);
-            event.accept(ModItems.ZIRCON);
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
         }
@@ -87,8 +83,6 @@ public class LichTweaks {
 
         // Add items to existing SEARCH creative mode tab
         if(event.getTab() == CreativeModeTabs.SEARCH) {
-            event.accept(ModItems.RAW_ZIRCON);
-            event.accept(ModItems.ZIRCON);
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
             event.accept(ModBlocks.MOON_SHARD_ORE);
