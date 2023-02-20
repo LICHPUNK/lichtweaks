@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lichtweaks:block/purified_moon_block"
+  }
+}

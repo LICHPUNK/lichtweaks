@@ -1,6 +1,7 @@
 package net.lichpunk.lichtweaks;
 
 import com.mojang.logging.LogUtils;
+import net.lichpunk.lichtweaks.block.ModBlocks;
 import net.lichpunk.lichtweaks.item.ModCreativeModeTab;
 import net.lichpunk.lichtweaks.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -27,9 +28,10 @@ public class LichTweaks {
     public LichTweaks() {
         // Creating IEventBus object for loading
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        // Registering all the ModItems into designated modEventBus
+        // Registering all ModItems from designated modEventBus
         ModItems.register(modEventBus);
-
+        // Registering all ModBlocks from designated modEventBus
+        ModBlocks.register(modEventBus);
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
         // Register the addCreative method for supplying creative tabs
@@ -53,7 +55,21 @@ public class LichTweaks {
             event.accept(ModItems.RAW_ZIRCON);
             // CUSTOM ITEMS
             event.accept(ModItems.MOON_SHARD);
-            event.accept(ModItems.PURIFIED_MOON_ESSENCE);
+            event.accept(ModItems.PURIFIED_MOON_SHARD);
+            event.accept(ModBlocks.MOON_SHARD_ORE);
+            event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
+            event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
+            event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
+            event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
+        }
+
+        // Add blocks to existing BUILDING_BLOCKS creative mode tab
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.MOON_SHARD_ORE);
+            event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
+            event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
+            event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
+            event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
         }
 
         // Add items to existing INGREDIENTS creative mode tab
@@ -61,19 +77,25 @@ public class LichTweaks {
             event.accept(ModItems.RAW_ZIRCON);
             event.accept(ModItems.ZIRCON);
             event.accept(ModItems.MOON_SHARD);
-            event.accept(ModItems.PURIFIED_MOON_ESSENCE);
+            event.accept(ModItems.PURIFIED_MOON_SHARD);
         }
+
 
         // Add items to existing FOOD_AND_DRINKS creative mode tab
         if(event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
         }
 
-        // Add items to existing   creative mode tab
+        // Add items to existing SEARCH creative mode tab
         if(event.getTab() == CreativeModeTabs.SEARCH) {
             event.accept(ModItems.RAW_ZIRCON);
             event.accept(ModItems.ZIRCON);
             event.accept(ModItems.MOON_SHARD);
-            event.accept(ModItems.PURIFIED_MOON_ESSENCE);
+            event.accept(ModItems.PURIFIED_MOON_SHARD);
+            event.accept(ModBlocks.MOON_SHARD_ORE);
+            event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
+            event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
+            event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
+            event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
         }
     }
 

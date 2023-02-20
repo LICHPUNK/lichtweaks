@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lichtweaks:block/moon_shard_ore"
+  }
+}

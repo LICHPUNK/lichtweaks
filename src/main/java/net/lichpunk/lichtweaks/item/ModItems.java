@@ -25,11 +25,8 @@ public class ModItems {
     public static final RegistryObject<Item> MOON_SHARD = ITEMS.register("moon_shard",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> PURIFIED_MOON_ESSENCE = ITEMS.register("purified_moon_essence",
+    public static final RegistryObject<Item> PURIFIED_MOON_SHARD = ITEMS.register("purified_moon_shard",
             () -> new Item(new Item.Properties()));
-
-    // Creates a new Block with the id "examplemod:example_block", combining the namespace and path
-    //public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)));
 
 
     public static void register(IEventBus eventBus) {

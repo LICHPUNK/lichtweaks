@@ -17,6 +17,7 @@ import net.minecraftforge.fml.common.Mod;
         @SubscribeEvent
         public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
             LICH_TAB = event.registerCreativeModeTab(new ResourceLocation(LichTweaks.MOD_ID, "lich_tab"),
-                    builder -> builder.icon(() -> new ItemStack(ModItems.PURIFIED_MOON_ESSENCE.get())).title(Component.literal("LichTweaks Tab")).build());
+                    // Setting the icon & title of the custom mod tab
+                    builder -> builder.icon(() -> new ItemStack(ModItems.PURIFIED_MOON_SHARD.get())).title(Component.literal("LichTweaks Tab")).build());
         }
     }
