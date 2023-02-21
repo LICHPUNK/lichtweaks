@@ -38,6 +38,10 @@ Retexture Memory Globe:
 Jump Blocks (with function):
 ![image](https://user-images.githubusercontent.com/111394123/220422496-4ed0f061-705f-4e77-9416-38f9cf69ed10.png)
 
+New Functional Block (Soul Beacon):
+![image](https://user-images.githubusercontent.com/111394123/220473725-9fa16e1f-7a4c-4671-8c0b-cdf64b8b571e.png)
+https://images-ext-1.discordapp.net/external/Z8bHGAOHd9uaIslcU4coIb1FlS-PG80Pu11E_HmfJ_Y/https/media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTQ4MGUyMDhiZGQwNmMzMzJiMDUzMTEzYjJjZjJkMDRiYzVlMTNjNyZjdD1n/xueoiFmZMlaPsuROhA/giphy.gif
+
 Non-Visual Progress:
 - Added all string type variables to translatables for expandability
 
