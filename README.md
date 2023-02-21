@@ -1,4 +1,4 @@
-# lichtweaks
+# LichTweaks (likely to change)
 
 2/20/23
 
@@ -40,6 +40,7 @@ Jump Blocks (with function):
 
 New Functional Block (Soul Beacon):
 ![image](https://user-images.githubusercontent.com/111394123/220473725-9fa16e1f-7a4c-4671-8c0b-cdf64b8b571e.png)
+*Current Soul Beacon Animation* (Subject to change):
 ![image](https://media0.giphy.com/media/xueoiFmZMlaPsuROhA/giphy.gif)
 
 
