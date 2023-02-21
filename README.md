@@ -40,7 +40,7 @@ Jump Blocks (with function):
 
 New Functional Block (Soul Beacon):
 ![image](https://user-images.githubusercontent.com/111394123/220473725-9fa16e1f-7a4c-4671-8c0b-cdf64b8b571e.png)
-![image](https://user-images.githubusercontent.com/111394123/220476237-3dbd307f-a87c-4191-9a4a-e88694d75785.png)
+![image](https://media0.giphy.com/media/xueoiFmZMlaPsuROhA/giphy.gif)
 
 
 
