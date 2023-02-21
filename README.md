@@ -4,7 +4,7 @@
 
 ***Visual Progress:***
 
-  ###### ![#92A8D1]`Custom Creative Mode Tab`:
+  ###### Custom Creative Mode Tab:
 ![image](https://user-images.githubusercontent.com/111394123/220198346-dbcf8912-eadc-4be6-ab25-3b1ffd275d6d.png)
 ###### 5 New Blocks (4 Moon Shard Variant Ores):
 ![image](https://user-images.githubusercontent.com/111394123/220199976-8359e8e9-e24f-4ceb-9c94-97453e7e4376.png)
