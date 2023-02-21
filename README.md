@@ -40,7 +40,7 @@ Jump Blocks (with function):
 
 New Functional Block (Soul Beacon):
 ![image](https://user-images.githubusercontent.com/111394123/220473725-9fa16e1f-7a4c-4671-8c0b-cdf64b8b571e.png)
-![Soul Beacon Gif](https://images-ext-1.discordapp.net/external/Z8bHGAOHd9uaIslcU4coIb1FlS-PG80Pu11E_HmfJ_Y/https/media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTQ4MGUyMDhiZGQwNmMzMzJiMDUzMTEzYjJjZjJkMDRiYzVlMTNjNyZjdD1n/xueoiFmZMlaPsuROhA/giphy.gif)
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/xueoiFmZMlaPsuROhA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/xueoiFmZMlaPsuROhA">via GIPHY</a></p>
 
 Non-Visual Progress:
 - Added all string type variables to translatables for expandability
