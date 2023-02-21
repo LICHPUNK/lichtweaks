@@ -16,5 +16,7 @@ Blasting:
 ![image](https://user-images.githubusercontent.com/111394123/220200421-52ae24bd-4dbc-43ec-8fb0-ee026767805a.png)
 Purified Moon Block Recipe:
 ![image](https://user-images.githubusercontent.com/111394123/220198785-ec2a7fde-19f6-43af-a880-9126845c60ce.png)
+First Memory Globe Iteration:
+![image](https://user-images.githubusercontent.com/111394123/220238805-b5bbef43-c3c2-4c10-b858-886e3080037f.png)
 
 
