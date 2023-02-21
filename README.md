@@ -1,7 +1,9 @@
 # lichtweaks
 
-Visual Progress:
 2/20/23
+
+Visual Progress:
+
 Custom Creative Mode Tab:
 ![image](https://user-images.githubusercontent.com/111394123/220198346-dbcf8912-eadc-4be6-ab25-3b1ffd275d6d.png)
 5 New Blocks (4 Moon Shard Variant Ores):
@@ -18,5 +20,27 @@ Purified Moon Block Recipe:
 ![image](https://user-images.githubusercontent.com/111394123/220198785-ec2a7fde-19f6-43af-a880-9126845c60ce.png)
 First Memory Globe Iteration:
 ![image](https://user-images.githubusercontent.com/111394123/220238805-b5bbef43-c3c2-4c10-b858-886e3080037f.png)
+
+Non-Visual Progress:
+
+- Adding blocks & items to respective vanilla creative tabs
+- Adding items to custom creative tab
+- Override methods for custom blocks & items
+- Restructure variables for expandability
+
+
+2/21/23
+
+Visual Progress:
+Retexture Memory Globe:
+![image](https://user-images.githubusercontent.com/111394123/220436007-fe0dc47b-cb9e-4dee-8874-5752ee71ce3f.png)
+
+Jump Blocks (with function):
+![image](https://user-images.githubusercontent.com/111394123/220422496-4ed0f061-705f-4e77-9416-38f9cf69ed10.png)
+
+Non-Visual Progress:
+- Added all string type variables to translatables for expandability
+
+
 
 
