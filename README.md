@@ -31,7 +31,7 @@
 
 ## 2/21/23
 
-###### *Visual Progress:*
+*Visual Progress:*
 ###### Retexture Memory Globe:
 ![image](https://user-images.githubusercontent.com/111394123/220436007-fe0dc47b-cb9e-4dee-8874-5752ee71ce3f.png)
 
@@ -47,7 +47,7 @@
 
 
 
-###### *Non-Visual Progress:*
+*Non-Visual Progress:*
 - Added all string type variables to translatables for expandability
 
 
