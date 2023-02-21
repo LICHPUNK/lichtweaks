@@ -1,6 +1,7 @@
 package net.lichpunk.lichtweaks.item;
 
 import net.lichpunk.lichtweaks.LichTweaks;
+import net.lichpunk.lichtweaks.item.custom.MemoryGlobeItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,6 +19,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> PURIFIED_MOON_SHARD = ITEMS.register("purified_moon_shard",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MEMORY_GLOBE = ITEMS.register("memory_globe",
+            // Setting MemoryGlobeItem properties to max of 1 per stack
+            () -> new MemoryGlobeItem(new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

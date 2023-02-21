@@ -54,6 +54,10 @@ public class LichTweaks {
             // CUSTOM ITEMS
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
+            event.accept(ModItems.MEMORY_GLOBE);
+
+            // CUTSOM BLOCKS
+
             event.accept(ModBlocks.MOON_SHARD_ORE);
             event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
@@ -85,6 +89,8 @@ public class LichTweaks {
         if(event.getTab() == CreativeModeTabs.SEARCH) {
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
+            event.accept(ModItems.MEMORY_GLOBE);
+
             event.accept(ModBlocks.MOON_SHARD_ORE);
             event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);

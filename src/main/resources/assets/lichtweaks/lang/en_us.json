@@ -1,10 +1,13 @@
 {
+  "item.lichtweaks.moon_shard": "Moon Shard",
+  "item.lichtweaks.purified_moon_shard": "Purified Moon Shard",
+  "item.lichtweaks.memory_globe": "Memory Globe",
+
   "block.lichtweaks.moon_shard_ore": "Moon Shard Ore",
   "block.lichtweaks.deepslate_moon_shard_ore": "Deepslate Moon Shard Ore",
   "block.lichtweaks.netherrack_moon_shard_ore": "Netherrack Moon Shard Ore",
   "block.lichtweaks.end_stone_moon_shard_ore": "End Stone Moon Shard Ore",
-
-  "item.lichtweaks.moon_shard": "Moon Shard",
-  "item.lichtweaks.purified_moon_shard": "Purified Moon Shard",
   "block.lichtweaks.purified_moon_block": "Purified Moon Block"
+
+
 }
