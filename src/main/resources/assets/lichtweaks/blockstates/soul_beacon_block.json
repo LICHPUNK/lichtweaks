@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "lichtweaks:block/soul_beacon_block_off"},
+    "lit=true": { "model": "lichtweaks:block/soul_beacon_block_on"}
+  }
+}

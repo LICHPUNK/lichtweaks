@@ -7,7 +7,17 @@
   "block.lichtweaks.deepslate_moon_shard_ore": "Deepslate Moon Shard Ore",
   "block.lichtweaks.netherrack_moon_shard_ore": "Netherrack Moon Shard Ore",
   "block.lichtweaks.end_stone_moon_shard_ore": "End Stone Moon Shard Ore",
-  "block.lichtweaks.purified_moon_block": "Purified Moon Block"
+
+  "block.lichtweaks.purified_moon_block": "Purified Moon Block",
+
+  "block.lichtweaks.jump_block": "Jump Block",
+  "block.lichtweaks.soul_beacon_block": "Soul Beacon",
+
+  "prompt.lichtweaks.tooltip": "Press SHIFT for more info",
+
+  "message.lichtweaks.roll": "You rolled a ",
+
+  "description.lichtweaks.memory_globe": "Right click to get a random number!"
 
 
 }

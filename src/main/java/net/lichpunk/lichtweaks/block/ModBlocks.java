@@ -1,6 +1,8 @@
 package net.lichpunk.lichtweaks.block;
 
 import net.lichpunk.lichtweaks.LichTweaks;
+import net.lichpunk.lichtweaks.block.custom.JumpBlock;
+import net.lichpunk.lichtweaks.block.custom.SoulBeaconBlock;
 import net.lichpunk.lichtweaks.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -20,6 +22,8 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, LichTweaks.MOD_ID);
+
+    /* ===== ORE SECTION ===== */
 
     // Creating the "Moon Shard Ore" block
     public static final RegistryObject<Block> MOON_SHARD_ORE = registerBlock("moon_shard_ore",
@@ -47,12 +51,44 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)));
+    
+    /* ===== BUILDING BLOCK SECTION ===== */
 
     // Creating the "Purified Moon Block" block
     public static final RegistryObject<Block> PURIFIED_MOON_BLOCK = registerBlock("purified_moon_block",
             // Block type changed to just Block so no XP will be dropped from the block
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()));
+
+    /* ===== FUNCTIONAL BLOCK SECTION ===== */
+
+    // Creating the "Jump Block" block
+    public static final RegistryObject<Block> JUMP_BLOCK = registerBlock("jump_block",
+            // Block type changed to just Block so no XP will be dropped from the block
+            () -> new JumpBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()));
+
+    // Creating the "Soul Beacon Block"
+    public static final RegistryObject<Block> SOUL_BEACON_BLOCK = registerBlock("soul_beacon_block",
+            // Block type changed to just Block so no XP will be dropped from the block
+            () -> new SoulBeaconBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    // If LIT property for SoulBeaconBlock is true light level is 15, otherwise it's 0
+                    .lightLevel(state -> state.getValue(SoulBeaconBlock.LIT) ? 15 : 0)
+            ));
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     // REGISTERING ALL BLOCKS BY PASSING (name, block, and tab) OF EACH
     // Enables block as an in-game block placed within the world.

@@ -51,18 +51,27 @@ public class LichTweaks {
         // Add items to custom LichTweaks creative mode tab
         if(event.getTab() == ModCreativeModeTab.LICH_TAB) {
 
-            // CUSTOM ITEMS
+            // ITEMS
+
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
             event.accept(ModItems.MEMORY_GLOBE);
 
-            // CUTSOM BLOCKS
+            // ORE BLOCKS
 
             event.accept(ModBlocks.MOON_SHARD_ORE);
             event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
             event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
+
+            // BLOCKS
+
             event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
+
+            // FUNCTIONAL BLOCKS
+
+            event.accept(ModBlocks.JUMP_BLOCK);
+            event.accept(ModBlocks.SOUL_BEACON_BLOCK);
         }
 
         // Add blocks to existing BUILDING_BLOCKS creative mode tab
@@ -72,6 +81,12 @@ public class LichTweaks {
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
             event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
             event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
+        }
+
+        // Add blocks to existing FUNCTIONAL creative mode tab
+        if(event.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.JUMP_BLOCK);
+            event.accept(ModBlocks.SOUL_BEACON_BLOCK);
         }
 
         // Add items to existing INGREDIENTS creative mode tab
@@ -96,6 +111,8 @@ public class LichTweaks {
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
             event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
             event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
+            event.accept(ModBlocks.JUMP_BLOCK);
+            event.accept(ModBlocks.SOUL_BEACON_BLOCK);
         }
     }
 
