@@ -9,7 +9,7 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 ## 2/20/23
 
-***Visual Progress:***
+***Visual Progress***:
 
   ###### Custom Creative Mode Tab:
 ![image](https://user-images.githubusercontent.com/111394123/220198346-dbcf8912-eadc-4be6-ab25-3b1ffd275d6d.png)
@@ -28,7 +28,7 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 ###### First Memory Globe Iteration:
 ![image](https://user-images.githubusercontent.com/111394123/220238805-b5bbef43-c3c2-4c10-b858-886e3080037f.png)
 
-***Non-Visual Progress:***
+***Non-Visual Progress***:
 
 - Adding blocks & items to respective vanilla creative tabs
 - Adding items to custom creative tab
@@ -38,7 +38,7 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 ## 2/21/23
 
-***Visual Progress:***
+***Visual Progress***:
 ###### Retexture Memory Globe:
 ![image](https://user-images.githubusercontent.com/111394123/220436007-fe0dc47b-cb9e-4dee-8874-5752ee71ce3f.png)
 
@@ -54,8 +54,14 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 
 
-***Non-Visual Progress:***
+***Non-Visual Progress***:
 - Added all string type variables to translatables for expandability
+
+## 2/21/23
+
+***Visual Progress***:
+
+## Non-Visual Progress***:
 
 
 
