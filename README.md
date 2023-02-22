@@ -64,6 +64,9 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 ![image](https://user-images.githubusercontent.com/111394123/220685073-4f26dcf7-a1e7-482c-8b98-70a7a4f11e08.png)
 ###### Belladonna Seed Growth Cycle:
 ![image](https://user-images.githubusercontent.com/111394123/220682983-e308b137-9499-4272-b42b-60c65a5aceb1.png)
+###### Belladonna Food Item:
+![image](https://user-images.githubusercontent.com/111394123/220686896-24d4076a-183e-44d7-a494-eab91a0676c8.png)
+
 
 
 ***Non-Visual Progress***:
