@@ -1,6 +1,7 @@
 package net.lichpunk.lichtweaks.block;
 
 import net.lichpunk.lichtweaks.LichTweaks;
+import net.lichpunk.lichtweaks.block.custom.BelladonnaCropBlock;
 import net.lichpunk.lichtweaks.block.custom.JumpBlock;
 import net.lichpunk.lichtweaks.block.custom.SoulBeaconBlock;
 import net.lichpunk.lichtweaks.item.ModItems;
@@ -8,6 +9,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -59,6 +61,13 @@ public class ModBlocks {
             // Block type changed to just Block so no XP will be dropped from the block
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()));
+
+    /* ===== CROP BLOCK SECTION ===== */
+
+    // Creating the "Belladonna" crop block
+    public static final RegistryObject<Block> BELLADONNA_CROP = BLOCKS.register("belladonna_crop",
+            // Block type changed to just Block so no XP will be dropped from the block
+            () -> new BelladonnaCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     /* ===== FUNCTIONAL BLOCK SECTION ===== */
 

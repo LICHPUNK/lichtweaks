@@ -3,6 +3,11 @@
   "item.lichtweaks.purified_moon_shard": "Purified Moon Shard",
   "item.lichtweaks.memory_globe": "Memory Globe",
 
+  "item.lichtweaks.belladonna": "Belladonna",
+  "item.lichtweaks.belladonna_seeds": "Belladonna Seeds",
+
+  "block.lichtweaks.belladonna_crop": "Belladonna Crop",
+
   "block.lichtweaks.moon_shard_ore": "Moon Shard Ore",
   "block.lichtweaks.deepslate_moon_shard_ore": "Deepslate Moon Shard Ore",
   "block.lichtweaks.netherrack_moon_shard_ore": "Netherrack Moon Shard Ore",

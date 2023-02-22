@@ -57,6 +57,11 @@ public class LichTweaks {
             event.accept(ModItems.PURIFIED_MOON_SHARD);
             event.accept(ModItems.MEMORY_GLOBE);
 
+            // CROPS
+
+            event.accept(ModItems.BELLADONNA);
+            event.accept(ModItems.BELLADONNA_SEEDS);
+
             // ORE BLOCKS
 
             event.accept(ModBlocks.MOON_SHARD_ORE);
@@ -93,11 +98,13 @@ public class LichTweaks {
         if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
+            event.accept(ModItems.BELLADONNA_SEEDS);
         }
 
 
         // Add items to existing FOOD_AND_DRINKS creative mode tab
         if(event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.BELLADONNA);
         }
 
         // Add items to existing SEARCH creative mode tab
