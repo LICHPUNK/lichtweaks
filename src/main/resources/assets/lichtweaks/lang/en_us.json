@@ -18,6 +18,8 @@
   "block.lichtweaks.jump_block": "Jump Block",
   "block.lichtweaks.soul_beacon_block": "Soul Beacon",
 
+  "entity.minecraft.villager.lichtweaks.wizard": "Wizard",
+
   "prompt.lichtweaks.tooltip": "Press SHIFT for more info",
 
   "message.lichtweaks.roll": "You rolled a ",

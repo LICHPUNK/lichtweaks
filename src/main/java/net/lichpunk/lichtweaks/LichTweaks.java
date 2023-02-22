@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import net.lichpunk.lichtweaks.block.ModBlocks;
 import net.lichpunk.lichtweaks.item.ModCreativeModeTab;
 import net.lichpunk.lichtweaks.item.ModItems;
+import net.lichpunk.lichtweaks.painting.ModPaintings;
+import net.lichpunk.lichtweaks.villager.ModVillagers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,10 +30,14 @@ public class LichTweaks {
     public LichTweaks() {
         // Creating IEventBus object for loading
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        // Registering all ModItems from designated modEventBus
+        // Registering all ModItems
         ModItems.register(modEventBus);
-        // Registering all ModBlocks from designated modEventBus
+        // Registering all ModBlocks
         ModBlocks.register(modEventBus);
+        // Registering all ModPaintings
+        ModPaintings.register(modEventBus);
+        // Registering all the ModVillagers
+        ModVillagers.register(modEventBus);
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
         // Register the addCreative method for supplying creative tabs
@@ -43,8 +49,24 @@ public class LichTweaks {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            ModVillagers.registerPOIs();
+        });
     }
+
+    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents {
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event)
+        {
+            // Some client setup code
+            LOGGER.info("HELLO FROM CLIENT SETUP");
+            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
+        }
+    }
+
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
 
@@ -124,15 +146,4 @@ public class LichTweaks {
     }
 
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
-        }
-    }
 }
