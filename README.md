@@ -61,7 +61,7 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 ***Visual Progress***:
 
-## Non-Visual Progress***:
+***Non-Visual Progress***:
 
 
 
