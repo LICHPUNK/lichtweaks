@@ -60,6 +60,8 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 ## 2/21/23
 
 ***Visual Progress***:
+###### New Belladonna Crop:
+![image](https://user-images.githubusercontent.com/111394123/220685073-4f26dcf7-a1e7-482c-8b98-70a7a4f11e08.png)
 ###### Belladonna Seed Growth Cycle:
 ![image](https://user-images.githubusercontent.com/111394123/220682983-e308b137-9499-4272-b42b-60c65a5aceb1.png)
 
