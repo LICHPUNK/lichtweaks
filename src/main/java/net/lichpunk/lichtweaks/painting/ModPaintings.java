@@ -14,6 +14,9 @@ public class ModPaintings {
     public static final RegistryObject<PaintingVariant> ATROPA_BELLADONNA = PAINTING_VARIANTS.register("atropa_belladonna",
             () -> new PaintingVariant(16, 16));
 
+    public static final RegistryObject<PaintingVariant> SACRIFICE = PAINTING_VARIANTS.register("sacrifice",
+            () -> new PaintingVariant(16, 16));
+
     public static final RegistryObject<PaintingVariant> ELIXIRS = PAINTING_VARIANTS.register("elixirs",
             () -> new PaintingVariant(32, 32));
 
