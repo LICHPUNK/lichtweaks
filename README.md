@@ -30,8 +30,8 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 ***Non-Visual Progress***:
 
-- Adding blocks & items to respective vanilla creative tabs
-- Adding items to custom creative tab
+- Add blocks & items to respective vanilla creative tabs
+- Add items to custom creative tab
 - Override methods for custom blocks & items
 - Restructure variables for expandability
 
