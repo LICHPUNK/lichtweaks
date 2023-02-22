@@ -1,6 +1,6 @@
 # LichTweaks (likely to change)
 ## What is LichTweaks?
-LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion for the game, pixel art, game development, and programming in general. It's currently being sought out as an opportunity to hone my skills in the aspects mentioned, and to contribute to a community I've enjoyed taking part in for over a decade now; it will continually be developed over time with the goal of eventually reaching an official full release. The current vision for the mod intends to add custom content and assets primarily with a considerable focus on fantasy elements. More specifically, based on the undead creature(s), known as [Lich](https://en.wikipedia.org/wiki/Lich), and their lore; whose inspiration is also reflected in my alias. Ideas are vast for this project but the additions will generally be along the lines of staves, scrolls, magic, undead, necromancy, treasure, dungeons, etc. All elements are intended to be balanced and only enhance the experience of the game without making the player, ironically enough, *actually immortal*.
+LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion for the game, pixel art, game development, and programming in general. It's currently being sought out as an opportunity to hone my skills in the aspects mentioned, and to contribute to a community I've enjoyed taking part in for over a decade now; it will continually be developed over time with the goal of eventually reaching an official full release. The current vision for the mod intends to add custom content and assets with a considerable focus on fantasy elements. More specifically, based on the undead creature(s), known as [Lich](https://en.wikipedia.org/wiki/Lich), and their lore; whose inspiration is also reflected in my alias. Ideas are vast for this project but the additions will generally be along the lines of staves, scrolls, spells, undead, necromancy, treasure, botany, brewing, etc. All elements are intended to be balanced and only enhance the experience of the game without making the player, ironically enough, *actually immortal*. Everything will be designed with the intention to mimic the general *feel* of Minecraft as an experience; seeking to act as an extension of what the vanilla game already has to offer.
 
 ###### *Wanna see what's new? See the most recent [update](https://github.com/tmoustakis/lichtweaks/blob/master/README.md#22123)!*
 
@@ -30,8 +30,8 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 ***Non-Visual Progress***:
 
-- Adding blocks & items to respective vanilla creative tabs
-- Adding items to custom creative tab
+- Add blocks & items to respective vanilla creative tabs
+- Add items to custom creative tab
 - Override methods for custom blocks & items
 - Restructure variables for expandability
 
@@ -66,9 +66,17 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 ![image](https://user-images.githubusercontent.com/111394123/220682983-e308b137-9499-4272-b42b-60c65a5aceb1.png)
 ###### Belladonna Food Item:
 ![image](https://user-images.githubusercontent.com/111394123/220687255-dbb0dfa1-4f57-443b-90b3-d66c13f8bf8f.png)
+###### New 'Wizard' Villager Profession (official profession & POI block textures incomplete, placeholders shown) :
+![image](https://user-images.githubusercontent.com/111394123/220743212-e353861e-8347-4c61-837d-42ee94992d22.png)
+*Functioning Wizard Trade GUI, Placeholder Trade, & Name*:
+![image](https://user-images.githubusercontent.com/111394123/220744308-c505448e-892d-4930-b3c1-49148cb0a031.png)
+###### 3 New Custom Paintings (integrated with vanilla paintings):
+![image](https://user-images.githubusercontent.com/111394123/220771391-d02696de-0e7c-449f-acd1-1a08946462f1.png)
+
 
 
 ***Non-Visual Progress***:
+- Add new items to translations
 
 
 
