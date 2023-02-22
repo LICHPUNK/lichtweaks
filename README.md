@@ -66,6 +66,10 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 ![image](https://user-images.githubusercontent.com/111394123/220682983-e308b137-9499-4272-b42b-60c65a5aceb1.png)
 ###### Belladonna Food Item:
 ![image](https://user-images.githubusercontent.com/111394123/220687255-dbb0dfa1-4f57-443b-90b3-d66c13f8bf8f.png)
+###### New 'Wizard' Villager Profession (official profession & POI block incomplete, placeholders shown) :
+![image](https://user-images.githubusercontent.com/111394123/220743212-e353861e-8347-4c61-837d-42ee94992d22.png)
+*Functioning Wizard Trade GUI, Placeholder Trade, & Name*:
+![image](https://user-images.githubusercontent.com/111394123/220744308-c505448e-892d-4930-b3c1-49148cb0a031.png)
 
 
 ***Non-Visual Progress***:
