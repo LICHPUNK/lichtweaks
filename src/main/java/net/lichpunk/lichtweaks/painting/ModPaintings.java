@@ -20,8 +20,19 @@ public class ModPaintings {
     public static final RegistryObject<PaintingVariant> ELIXIRS = PAINTING_VARIANTS.register("elixirs",
             () -> new PaintingVariant(32, 32));
 
+    public static final RegistryObject<PaintingVariant> REINCARNATE = PAINTING_VARIANTS.register("reincarnate",
+            () -> new PaintingVariant(48, 32));
+
     public static final RegistryObject<PaintingVariant> TOWER = PAINTING_VARIANTS.register("tower",
             () -> new PaintingVariant(16, 32));
+
+    public static final RegistryObject<PaintingVariant> WEEP = PAINTING_VARIANTS.register("weep",
+            () -> new PaintingVariant(32, 32));
+
+    public static final RegistryObject<PaintingVariant> WANDERER = PAINTING_VARIANTS.register("wanderer",
+            () -> new PaintingVariant(32, 32));
+
+
     public static void register(IEventBus eventBus) {
         PAINTING_VARIANTS.register(eventBus);
     }
