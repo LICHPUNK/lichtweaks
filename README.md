@@ -70,8 +70,8 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 ![image](https://user-images.githubusercontent.com/111394123/220743212-e353861e-8347-4c61-837d-42ee94992d22.png)
 *Functioning Wizard Trade GUI, Placeholder Trade, & Name*:
 ![image](https://user-images.githubusercontent.com/111394123/220744308-c505448e-892d-4930-b3c1-49148cb0a031.png)
-###### 4 New Custom Paintings (integrated with vanilla paintings):
-![image](https://user-images.githubusercontent.com/111394123/220776010-b4f4261f-ae67-4f5d-a03c-a510eda73e40.png)
+###### 7 New Custom Paintings (integrated with vanilla paintings):
+![image](https://user-images.githubusercontent.com/111394123/220826715-aad28bdc-ad12-4220-ad29-c5bd15dab178.png)
 
 
 
