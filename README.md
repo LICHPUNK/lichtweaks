@@ -77,6 +77,14 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 
 ***Non-Visual Progress***:
 - Add new items to translations
+- Override methods for custom crops & paintings
+
+## 2/23/23
+
+***Visual Progress***:
+
+***Non-Visual Progress***:
+- Updated mod's version number
 
 
 
