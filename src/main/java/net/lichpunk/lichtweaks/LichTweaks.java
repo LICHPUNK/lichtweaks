@@ -6,6 +6,8 @@ import net.lichpunk.lichtweaks.item.ModCreativeModeTab;
 import net.lichpunk.lichtweaks.item.ModItems;
 import net.lichpunk.lichtweaks.painting.ModPaintings;
 import net.lichpunk.lichtweaks.villager.ModVillagers;
+import net.lichpunk.lichtweaks.world.feature.ModConfiguredFeatures;
+import net.lichpunk.lichtweaks.world.feature.ModPlacedFeatures;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,21 +30,33 @@ public class LichTweaks {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public LichTweaks() {
-        // Creating IEventBus object for loading
+
+        // IEventBus object for loading mod features
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        // Registering all ModItems
+
+        // ModConfiguredFeatures
+        //ModConfiguredFeatures.register(modEventBus);
+
+        // ModPlacedFeatures
+        //ModPlacedFeatures.register(modEventBus);
+
+        // ModItems
         ModItems.register(modEventBus);
-        // Registering all ModBlocks
+
+        // ModBlocks
         ModBlocks.register(modEventBus);
-        // Registering all ModPaintings
+
+        // ModPaintings
         ModPaintings.register(modEventBus);
-        // Registering all the ModVillagers
+
+        // ModVillagers
         ModVillagers.register(modEventBus);
+
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
+
         // Register the addCreative method for supplying creative tabs
         modEventBus.addListener(this::addCreative);
-
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -70,38 +84,37 @@ public class LichTweaks {
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
 
+        /* ===== CUSTOM TAB(S) ===== */
+
         // Add items to custom LichTweaks creative mode tab
         if(event.getTab() == ModCreativeModeTab.LICH_TAB) {
 
             // ITEMS
-
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
             event.accept(ModItems.MEMORY_GLOBE);
 
-            // CROPS
+            // BLOCKS
+            event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
 
+            // CROPS
             event.accept(ModItems.BELLADONNA);
             event.accept(ModItems.BELLADONNA_SEEDS);
 
             // ORE BLOCKS
-
             event.accept(ModBlocks.MOON_SHARD_ORE);
             event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
             event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
 
-            // BLOCKS
-
-            event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
-
             // FUNCTIONAL BLOCKS
-
             event.accept(ModBlocks.JUMP_BLOCK);
             event.accept(ModBlocks.SOUL_BEACON_BLOCK);
         }
 
-        // Add blocks to existing BUILDING_BLOCKS creative mode tab
+        /* ===== VANILLA TAB(S) ===== */
+
+        // BUILDING_BLOCKS
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.MOON_SHARD_ORE);
             event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
@@ -110,13 +123,13 @@ public class LichTweaks {
             event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
         }
 
-        // Add blocks to existing FUNCTIONAL creative mode tab
+        // FUNCTIONAL
         if(event.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.JUMP_BLOCK);
             event.accept(ModBlocks.SOUL_BEACON_BLOCK);
         }
 
-        // Add items to existing INGREDIENTS creative mode tab
+        // INGREDIENTS
         if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
@@ -124,22 +137,28 @@ public class LichTweaks {
         }
 
 
-        // Add items to existing FOOD_AND_DRINKS creative mode tab
+        // FOOD_AND_DRINKS
         if(event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.BELLADONNA);
         }
 
-        // Add items to existing SEARCH creative mode tab
+        // SEARCH
         if(event.getTab() == CreativeModeTabs.SEARCH) {
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
             event.accept(ModItems.MEMORY_GLOBE);
 
+            event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
+
+            event.accept(ModItems.BELLADONNA_SEEDS);
+            event.accept(ModItems.BELLADONNA);
+
             event.accept(ModBlocks.MOON_SHARD_ORE);
             event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
             event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
-            event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
+
+
             event.accept(ModBlocks.JUMP_BLOCK);
             event.accept(ModBlocks.SOUL_BEACON_BLOCK);
         }
