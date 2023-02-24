@@ -1,6 +1,6 @@
 # LichTweaks (likely to change)
 ## What is LichTweaks?
-LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion for the game, pixel art, game development, and programming in general. It's currently being sought out as an opportunity to hone my skills in the aspects mentioned, and to contribute to a community I've enjoyed taking part in for over a decade now; it will continually be developed over time with the goal of eventually reaching an official full release. The current vision for the mod intends to add custom content and assets with a considerable focus on fantasy elements. More specifically, based on the undead creature(s), known as [Lich](https://en.wikipedia.org/wiki/Lich), and their lore; whose inspiration is also reflected in my alias. Ideas are vast for this project but the additions will generally be along the lines of staves, scrolls, spells, undead, necromancy, treasure, botany, brewing, etc. All elements are intended to be balanced and only enhance the experience of the game without making the player, ironically enough, *actually immortal*. Everything will be designed with the intention to mimic the general *feel* of Minecraft as an experience; seeking to act as an extension of what the vanilla game already has to offer.
+LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of passion for the game, pixel art, game development, and programming in general. It's currently being sought out as an opportunity to hone my skills in the aspects mentioned, and to contribute to a community I've enjoyed taking part in for over a decade now; it will continually be developed over time with the goal of eventually reaching an official full release. The current vision for the mod intends to add custom content and assets with a considerable focus on fantasy elements. More specifically, based on the undead creature(s), known as [Lich](https://en.wikipedia.org/wiki/Lich), and their lore; whose inspiration is also reflected in my alias. Ideas are vast for this project but the additions will generally be along the lines of staves, scrolls, spells, undead, necromancy, treasure, botany, brewing, etc. All elements are intended to be balanced and only enhance the experience of the game without making the player, ironically enough, *actually immortal*. Everything will be designed with the intention to mimic the general *feel* of Minecraft as an experience; seeking to act as an extension of what the vanilla game already has to offer.
 
 ###### *Wanna see what's new? See the most recent [update](https://github.com/tmoustakis/lichtweaks/blob/master/README.md#22123)!*
 
@@ -55,7 +55,7 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 
 ***Non-Visual Progress***:
-- Added all string type variables to translatables for expandability
+- Add all string type variables to translatables for expandability
 
 ## 2/21/23
 
@@ -77,7 +77,31 @@ LichTweaks is a minecraft mod created by me, LICH or LICHPUNK, out of passion fo
 
 ***Non-Visual Progress***:
 - Add new items to translations
+- Override methods for custom crops & paintings
+
+## 2/23/23
+
+***Visual Progress***:
+###### Successful 'Moon Shard Ore' World Generation:
+
+*Default*:
+![image](https://user-images.githubusercontent.com/111394123/221077801-988d155d-a003-4acd-a0ff-5a73649601e0.png)
+*Deepslate*:
+![image](https://user-images.githubusercontent.com/111394123/221078077-4b112e2e-0544-485d-91e3-5558b0e97e55.png)
+*Nether*:
+![image](https://user-images.githubusercontent.com/111394123/221078490-69e695a9-9366-4043-b537-3d0b4be676e0.png)
+*End*:
+![image](https://user-images.githubusercontent.com/111394123/221078809-d1f0fe8e-5889-49ce-93b2-443e99b47215.png)
+
+###### Note:
+*Moon Shard Ore will likely not be designed to generate in all 3 dimensions. Addotionally, the rate & means of obtaining the ore
+is likely to be changed; but, the fact that world generation in each dimension is functioning allows for ease of use down the line,
+if & when integrating different ores/blocks*.
 
 
 
 
+***Non-Visual Progress***:
+- Update mod's version number
+- Add license agreement & terms
+- Add methods for data generation (primarily world generation)
