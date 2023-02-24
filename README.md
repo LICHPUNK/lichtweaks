@@ -128,7 +128,7 @@ if & when integrating different ores/blocks*.
   - recipes
   - partial world generation
 *Note: data generation for crops is incomplete, added `"render_type": "minecraft:cutout_mipped"` manually for transparent crop textures.
--
+- Add mod paintings to translations
 
 
 ## TBD
