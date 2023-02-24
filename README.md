@@ -85,7 +85,6 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 
 ***Visual Progress***:
 ###### Successful 'Moon Shard Ore' World Generation:
-
 *Default*:
 ![image](https://user-images.githubusercontent.com/111394123/221077801-988d155d-a003-4acd-a0ff-5a73649601e0.png)
 *Deepslate*:
@@ -112,9 +111,21 @@ if & when integrating different ores/blocks*.
 ## 2/24/23
 
 ***Visual Progress***:
+###### Shapeless Belladonna Seeds Recipe:
+![image](https://user-images.githubusercontent.com/111394123/221320106-3510a5ec-3751-4103-bcf0-b3370189355e.png)
+
 
 
 ***Non-Visual Progress***:
+- Add more methods for JSON data generation, including:
+  - block loot tables
+  - loot tables
+  - block states
+  - item models
+  - recipes
+  - partial world generation
+*Note: data generation for crops is incomplete, added `"render_type": "minecraft:cutout_mipped"` manually for transparent crop textures.
+-
 
 
 ## TBD
