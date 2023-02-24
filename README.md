@@ -111,8 +111,11 @@ if & when integrating different ores/blocks*.
 ## 2/24/23
 
 ***Visual Progress***:
-###### Shapeless Belladonna Seeds Recipe:
+###### Shapeless Belladonna to Belladonna Seeds Recipe:
 ![image](https://user-images.githubusercontent.com/111394123/221320106-3510a5ec-3751-4103-bcf0-b3370189355e.png)
+###### Shapeless Purified Moon Block to Purified Moon Shards (9) Recipe:
+![image](https://user-images.githubusercontent.com/111394123/221320307-8d769d5c-bb52-4093-8d0f-877114f33471.png)
+
 
 
 
