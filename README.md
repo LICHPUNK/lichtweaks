@@ -55,7 +55,7 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 
 
 ***Non-Visual Progress***:
-- Added all string type variables to translatables for expandability
+- Add all string type variables to translatables for expandability
 
 ## 2/21/23
 
@@ -82,10 +82,20 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ## 2/23/23
 
 ***Visual Progress***:
+Successful 'Moon Shard Ore' World Generation:
+*Default*:
+![image](https://user-images.githubusercontent.com/111394123/221077801-988d155d-a003-4acd-a0ff-5a73649601e0.png)
+*Deepslate*:
+![image](https://user-images.githubusercontent.com/111394123/221078077-4b112e2e-0544-485d-91e3-5558b0e97e55.png)
+*Nether*:
+![image](https://user-images.githubusercontent.com/111394123/221078490-69e695a9-9366-4043-b537-3d0b4be676e0.png)
+*End*:
+![image](https://user-images.githubusercontent.com/111394123/221078809-d1f0fe8e-5889-49ce-93b2-443e99b47215.png)
+
+
+
 
 ***Non-Visual Progress***:
-- Updated mod's version number
-
-
-
-
+- Update mod's version number
+- Add license agreement & terms
+- Add methods for data generation (primarily world generation)
