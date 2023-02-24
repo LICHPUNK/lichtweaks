@@ -94,9 +94,9 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ![image](https://user-images.githubusercontent.com/111394123/221078809-d1f0fe8e-5889-49ce-93b2-443e99b47215.png)
 
 ###### Note:
-*Moon Shard Ore will likely not be designed to generate in all 3 dimensions, the rate & means of obtaining the ore
-is also likely to be changed; but, the fact that world generation in each dimension is functioning allows for ease of use
-later, if & when integrating different ores/blocks*.
+*Moon Shard Ore will likely not be designed to generate in all 3 dimensions. Addotionally, the rate & means of obtaining the ore
+is likely to be changed; but, the fact that world generation in each dimension is functioning allows for ease of use down the line,
+if & when integrating different ores/blocks*.
 
 
 
