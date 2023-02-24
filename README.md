@@ -7,6 +7,7 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ###### *Things to Note*:
 - Most of textures seen will *NOT* be final. The end goal is to give them a much more refined, complete look as the mod progresses.
 
+
 ## 2/20/23
 
 ***Visual Progress***:
@@ -27,6 +28,7 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ![image](https://user-images.githubusercontent.com/111394123/220198785-ec2a7fde-19f6-43af-a880-9126845c60ce.png)
 ###### New Memory Globe Item:
 ![image](https://user-images.githubusercontent.com/111394123/220238805-b5bbef43-c3c2-4c10-b858-886e3080037f.png)
+
 
 ***Non-Visual Progress***:
 
@@ -53,9 +55,9 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ![image](https://media0.giphy.com/media/xueoiFmZMlaPsuROhA/giphy.gif)
 
 
-
 ***Non-Visual Progress***:
 - Add all string type variables to translatables for expandability
+
 
 ## 2/21/23
 
@@ -74,10 +76,10 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ![image](https://user-images.githubusercontent.com/111394123/220826715-aad28bdc-ad12-4220-ad29-c5bd15dab178.png)
 
 
-
 ***Non-Visual Progress***:
 - Add new items to translations
 - Override methods for custom crops & paintings
+
 
 ## 2/23/23
 
@@ -105,3 +107,52 @@ if & when integrating different ores/blocks*.
 - Update mod's version number
 - Add license agreement & terms
 - Add methods for data generation (primarily world generation)
+
+
+## 2/24/23
+
+***Visual Progress***:
+
+
+***Non-Visual Progress***:
+
+
+## TBD
+
+***Visual Progress***:
+
+
+***Non-Visual Progress***:
+
+
+## TBD
+
+***Visual Progress***:
+
+
+***Non-Visual Progress***:
+
+
+## 2/23/23
+
+***Visual Progress***:
+
+
+***Non-Visual Progress***:
+
+
+## TBD
+
+***Visual Progress***:
+
+
+***Non-Visual Progress***:
+
+
+## TBD
+
+***Visual Progress***:
+
+
+***Non-Visual Progress***:
+
