@@ -82,7 +82,8 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ## 2/23/23
 
 ***Visual Progress***:
-Successful 'Moon Shard Ore' World Generation:
+###### Successful 'Moon Shard Ore' World Generation:
+
 *Default*:
 ![image](https://user-images.githubusercontent.com/111394123/221077801-988d155d-a003-4acd-a0ff-5a73649601e0.png)
 *Deepslate*:
