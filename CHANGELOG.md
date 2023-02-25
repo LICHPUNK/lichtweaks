@@ -1,6 +1,6 @@
 # LichTweaks Changelog
 ## What's the purpose?
-The changelog for LichTweaks will be utilized as a formal place to document the content added & changes made throughout the mod's development. It hopes to offer a simple means to visualize progress over-time; rather than having to dig through the code itself. The ability to physically view the content gives I, and potential players, a better idea of the mod's development direction and what to expect moving forward.
+The changelog for LichTweaks will be utilized as a formal place to document the content added & changes made throughout the mod's development. It hopes to offer a simple means to visualize progress over-time; rather than having to dig through the code itself. The ability to physically view the content gives I, and potential players, a better idea of the mod's development direction and what to expect moving forward. This document was previously located in 'README.md', but was relocated for organizational purposes and to keep the information on the root repository page brief.
 
 
 ###### *Wanna see what's new? See the most recent [update](https://github.com/LICHPUNK/lichtweaks/blob/master/README.md#22423)!*
@@ -14,7 +14,7 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 
 ***Visual Progress***:
 
-  ###### Custom Creative Mode Tab:
+###### Custom Creative Mode Tab:
 ![image](https://user-images.githubusercontent.com/111394123/220198346-dbcf8912-eadc-4be6-ab25-3b1ffd275d6d.png)
 ###### 5 New Blocks (4 Moon Shard Variant Ores):
 ![image](https://user-images.githubusercontent.com/111394123/220199976-8359e8e9-e24f-4ceb-9c94-97453e7e4376.png)
