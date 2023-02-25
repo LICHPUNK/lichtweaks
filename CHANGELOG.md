@@ -1,4 +1,5 @@
 # LichTweaks Changelog
+## Purpose of the Changelog?
 
 ###### *Wanna see what's new? See the most recent [update](https://github.com/LICHPUNK/lichtweaks/blob/master/README.md#22423)!*
 
