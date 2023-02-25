@@ -4,6 +4,8 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 
 ###### *Wanna see what's new? See the most recent [update](https://github.com/tmoustakis/lichtweaks/blob/master/README.md#22123)!*
 
+###### *For legal rights, review [general licensing](https://github.com/tmoustakis/lichtweaks/blob/56de6d280ec7575f58150f14c9f53a3318391766/LICENSE.txt); review [asset rights](https://github.com/tmoustakis/lichtweaks/blob/56de6d280ec7575f58150f14c9f53a3318391766/src/main/resources/assets/lichtweaks/textures/LICENSE.txt) for information specific textures & art.
+
 ###### *Things to Note*:
 - Most of textures seen will *NOT* be final. The end goal is to give them a much more refined, complete look as the mod progresses.
 
