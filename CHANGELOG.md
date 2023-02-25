@@ -1,6 +1,6 @@
 # LichTweaks Changelog
 ## What's the purpose?
-The changelog for LichTweaks will be utilized as a formal place to document the content added & changes made throughout the mod's development. It hopes to offer a simple means to visualize progress over-time; rather than having to dig through the code itself. The ability to physically view the content gives I, and potential players, a better idea of the mod's development direction and what to expect moving forward. This document was previously located in 'README.md', but was relocated for organizational purposes and to keep the information on the repository's root page brief.
+The changelog for LichTweaks will be utilized as a formal place to document the content added & changes made throughout the mod's development. It hopes to offer a simple means to visualize progress over-time; rather than having to dig through the code itself. The ability to physically view the content gives I, and potential players, a better idea of the mod's development direction and what to expect moving forward. This document was previously located in 'README.md', but was relocated for organizational purposes and to keep the information on the repository root page brief for those not interested in the full extent of content.
 
 
 ###### *Wanna see what's new? See the most recent [update](https://github.com/LICHPUNK/lichtweaks/blob/master/README.md#22423)!*
