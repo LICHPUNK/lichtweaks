@@ -11,25 +11,7 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_item_frame": "2023-02-20 16:06:30 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2023-02-22 09:58:17 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2023-02-22 14:57:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2023-02-22 14:57:51 -0500"
     },
@@ -47,40 +29,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_slab": {
-    "criteria": {
-      "has_planks": "2023-02-22 14:57:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2023-02-22 15:00:07 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2023-02-20 16:11:03 -0500",
-      "minecraft:zombie": "2023-02-22 15:03:25 -0500"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_log": "2023-02-22 14:57:46 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2023-02-22 17:12:35 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2023-02-22 17:12:35 -0500"
     },
     "done": true
   },
@@ -93,18 +44,6 @@
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2023-02-22 14:57:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_stairs": {
-    "criteria": {
-      "has_planks": "2023-02-22 14:57:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
-    "criteria": {
-      "has_iron_pickaxe": "2023-02-20 16:10:41 -0500"
     },
     "done": true
   },
@@ -122,12 +61,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/redstone/spruce_trapdoor": {
-    "criteria": {
-      "has_planks": "2023-02-22 14:57:51 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2023-02-22 14:57:46 -0500"
@@ -140,21 +73,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2023-02-24 12:07:53 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/belladonna_seeds_from_belladonna": {
+    "criteria": {
+      "has_belladonna": "2023-02-24 16:40:26 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2023-02-22 14:57:56 -0500"
     },
     "done": true
   },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2023-02-20 16:10:41 -0500"
-    },
-    "done": true
-  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-02-21 23:39:00 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/purified_moon_block": {
+    "criteria": {
+      "has_purified_moon_shard": "2023-02-24 12:11:12 -0500"
     },
     "done": true
   },
@@ -170,21 +115,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_pickaxe": "2023-02-20 16:26:19 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2023-02-22 09:58:17 -0500"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2023-02-20 16:27:42 -0500"
     },
     "done": true
   },
@@ -200,9 +133,9 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "lichtweaks:recipes/building_blocks/purified_moon_shard": {
     "criteria": {
-      "crafting_table": "2023-02-20 15:48:03 -0500"
+      "has_purified_moon_block": "2023-02-24 12:11:14 -0500"
     },
     "done": true
   },
@@ -215,24 +148,6 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2023-02-22 09:58:17 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2023-02-22 09:58:17 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2023-02-22 14:57:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2023-02-20 15:56:32 -0500"
     },
     "done": true
   },
@@ -260,6 +175,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2023-02-24 12:07:53 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2023-02-22 09:58:17 -0500"
@@ -275,6 +196,140 @@
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_pickaxe": "2023-02-20 16:26:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-02-20 16:06:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-02-22 09:58:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-02-22 15:00:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2023-02-20 16:11:03 -0500",
+      "minecraft:creeper": "2023-02-24 12:13:18 -0500",
+      "minecraft:zombie": "2023-02-22 15:03:25 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-02-22 14:57:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2023-02-22 17:12:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2023-02-20 16:10:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2023-02-24 18:22:37 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/purified_moon_shard_from_smelting_moon_shard": {
+    "criteria": {
+      "has_moon_shard": "2023-02-24 12:11:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2023-02-20 16:10:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2023-02-20 16:26:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2023-02-20 16:27:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-02-20 15:48:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-02-22 09:58:17 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/purified_moon_shard_from_blasting_moon_shard": {
+    "criteria": {
+      "has_moon_shard": "2023-02-24 15:02:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2023-02-20 15:56:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2023-02-24 18:22:37 -0500"
     },
     "done": true
   },

@@ -2,9 +2,11 @@
   "replace": false,
   "values": [
     "lichtweaks:moon_shard_ore",
-    "lichtweaks:purified_moon_block",
     "lichtweaks:deepslate_moon_shard_ore",
     "lichtweaks:netherrack_moon_shard_ore",
-    "lichtweaks:end_stone_moon_shard_ore"
+    "lichtweaks:end_stone_moon_shard_ore",
+    "lichtweaks:purified_moon_block",
+    "lichtweaks:jump_block",
+    "lichtweaks:soul_beacon_block"
   ]
 }

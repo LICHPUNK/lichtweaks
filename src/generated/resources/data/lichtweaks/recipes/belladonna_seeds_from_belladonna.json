@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "belladonna_seeds",
+  "ingredients": [
+    {
+      "item": "lichtweaks:belladonna"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "lichtweaks:belladonna_seeds"
+  }
+}
