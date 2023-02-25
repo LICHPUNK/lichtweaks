@@ -1,4 +1,4 @@
-# LichTweaks (likely to change)
+# LichTweaks (name likely to change)
 
 <br />
 
