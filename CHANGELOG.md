@@ -132,12 +132,14 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 - Update licensing & agreement terms
 
 
-## TBD
+## 2/25/23
 
 ***Visual Progress***:
+- 
 
 
 ***Non-Visual Progress***:
+- Add basic hotkeys method
 
 
 ## TBD
