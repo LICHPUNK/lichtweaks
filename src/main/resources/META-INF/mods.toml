@@ -9,7 +9,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[44,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Refer to the LICENSE.txt files specifications
-license="CC BY-NC-SA, CC BY-NC-ND"
+license="MIT, CC BY-NC-ND"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -25,11 +25,11 @@ displayName="LichTweaks" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://github.com/LICHPUNK/lichtweaks" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile= "lichtweaks.png" #optional
 # A text field displayed in the mod UI
-credits="- LICHPUNK" #optional
+credits="Special thanks to  @ModdingByKaupenjoe for the incredibly informative modding tutorial videos." #optional
 # A text field displayed in the mod UI
 authors="LICHPUNK" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,11 +42,9 @@ authors="LICHPUNK" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
+LichTweaks is a Minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of passion for the game, pixel art, game development, and programming in general. It's currently being sought out as an opportunity to hone my skills in the aspects mentioned, and to contribute to a community I've enjoyed taking part in for over a decade now; it will continually be developed over time with the goal of eventually reaching an official full release.
 
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+The current vision for the mod intends to add custom content and assets with a considerable focus on fantasy elements. More specifically, based on the undead creature(s), known as Lich, and their lore; whose inspiration is also reflected in my alias. Ideas are vast for this project but the additions will generally be along the lines of staves, scrolls, spells, undead, necromancy, treasure, botany, brewing, etc. All elements are intended to be balanced and only enhance the experience of the game without making the player, ironically enough, actually immortal. Everything will be designed with the intention to mimic the general feel of Minecraft as an experience; seeking to act as an extension of what the vanilla game already has to offer.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.lichtweaks]] #optional
