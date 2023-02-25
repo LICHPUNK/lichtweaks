@@ -10,6 +10,8 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 ###### *Note: Most of textures seen will *NOT* be final. The end goal is to give them a much more refined, complete look as the mod progresses*.
 
 
+
+
 ## 2/20/23
 
 ***Visual Progress***:
