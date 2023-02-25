@@ -1,5 +1,6 @@
 # LichTweaks Changelog
-## Purpose of the Changelog?
+## What's the purpose?
+The changelog for LichTweaks will be utilized as a formal place to document all the content added & changes made throughout the mod's development. It hopes to offer a simple means to visualize progress over-time; rather than having to dig through the code itself. The ability to physically view the content gives I, and potential players, a better idea of the mod's development direction and what to expect moving forward.
 
 ###### *Wanna see what's new? See the most recent [update](https://github.com/LICHPUNK/lichtweaks/blob/master/README.md#22423)!*
 
