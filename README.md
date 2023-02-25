@@ -19,10 +19,10 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 ![image](https://user-images.githubusercontent.com/111394123/220199976-8359e8e9-e24f-4ceb-9c94-97453e7e4376.png)
 ###### New Moon Shard Loot Tables:
 ![image](https://user-images.githubusercontent.com/111394123/220199227-aec4fd05-bf54-46b1-a514-5d146175a24a.png)
-###### Smelting:
+###### Moon Shard Smelting Recipe:
 ![image](https://user-images.githubusercontent.com/111394123/220199518-02785b4a-2257-4bb6-b114-b590e5ceb66e.png)
 ![image](https://user-images.githubusercontent.com/111394123/220200230-a0d0e447-3123-4095-bc2f-8d34dbe68bb8.png)
-###### Blasting:
+###### Moon Shard Blasting:
 ![image](https://user-images.githubusercontent.com/111394123/220199667-3fe87aa4-bdeb-4f2b-a361-eca33399a7d8.png)
 ![image](https://user-images.githubusercontent.com/111394123/220200421-52ae24bd-4dbc-43ec-8fb0-ee026767805a.png)
 ###### Purified Moon Block Recipe:
@@ -95,9 +95,7 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 *End*:
 ![image](https://user-images.githubusercontent.com/111394123/221078809-d1f0fe8e-5889-49ce-93b2-443e99b47215.png)
 
-###### *Note: Moon Shard Ore will likely not be designed to generate in all 3 dimensions. Addotionally, the rate & means of obtaining the ore
-is likely to be changed; but, the fact that world generation in each dimension is functioning allows for ease of use down the line,
-if & when integrating different ores/blocks*.
+###### *Note: Moon Shard Ore will likely not be designed to generate in all 3 dimensions. Addotionally, the rate & means of obtaining the ore is likely to be changed; but, the fact that world generation in each dimension is functioning allows for ease of use down the line, if & when integrating different ores/blocks*.
 
 
 
