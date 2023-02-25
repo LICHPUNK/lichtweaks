@@ -4,8 +4,8 @@
   <img src="https://user-images.githubusercontent.com/111394123/221363964-08660709-1786-4c2f-8362-d5af43aabfe1.png"/>
 </p>
 
-[![License - MIT](https://img.shields.io/badge/License-MIT-134074)](https://github.com/LICHPUNK/lichtweaks/blob/master/LICENSE.txt)
-[![Art License - CC BY-NC-ND](https://img.shields.io/badge/Art_License-CC_BY--NC--ND-5f6f92)](https://github.com/LICHPUNK/lichtweaks/blob/master/src/main/resources/assets/lichtweaks/textures/LICENSE.txt)
+[![License - MIT](https://img.shields.io/badge/License-MIT-134074)](https://github.com/LICHPUNK/lichtweaks/blob/master/LICENSE.txt)&nbsp; 
+[![Art License - CC BY-NC-ND](https://img.shields.io/badge/Art_License-CC_BY--NC--ND-5f6f92)](https://github.com/LICHPUNK/lichtweaks/blob/master/src/main/resources/assets/lichtweaks/textures/LICENSE.txt)&nbsp; 
 [![Discord Server](https://img.shields.io/badge/_Discord-Server-7289DA?)](https://#)
 [![CurseForge](https://cf.way2muchnoise.eu/831321.svg)](https://www.curseforge.com/minecraft/mc-mods/lichtweaks)
 
