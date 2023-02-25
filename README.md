@@ -6,8 +6,7 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 
 ###### *For legal rights, review [general licensing](https://github.com/tmoustakis/lichtweaks/blob/56de6d280ec7575f58150f14c9f53a3318391766/LICENSE.txt); review [asset rights](https://github.com/tmoustakis/lichtweaks/blob/56de6d280ec7575f58150f14c9f53a3318391766/src/main/resources/assets/lichtweaks/textures/LICENSE.txt) for information specific textures & art.*
 
-###### *Things to Note*:
-- Most of textures seen will *NOT* be final. The end goal is to give them a much more refined, complete look as the mod progresses.
+###### *Note: Most of textures seen will *NOT* be final. The end goal is to give them a much more refined, complete look as the mod progresses*.
 
 
 ## 2/20/23
@@ -96,8 +95,7 @@ LichTweaks is a minecraft mod created by myself, A.K.A. LICH or LICHPUNK, out of
 *End*:
 ![image](https://user-images.githubusercontent.com/111394123/221078809-d1f0fe8e-5889-49ce-93b2-443e99b47215.png)
 
-###### Note:
-*Moon Shard Ore will likely not be designed to generate in all 3 dimensions. Addotionally, the rate & means of obtaining the ore
+###### *Note: Moon Shard Ore will likely not be designed to generate in all 3 dimensions. Addotionally, the rate & means of obtaining the ore
 is likely to be changed; but, the fact that world generation in each dimension is functioning allows for ease of use down the line,
 if & when integrating different ores/blocks*.
 
@@ -130,7 +128,7 @@ if & when integrating different ores/blocks*.
   - recipes
   - partial world generation
 
-*Note: data generation for crops is incomplete, added `"render_type": "minecraft:cutout_mipped"` manually for transparent crop textures.*
+###### *Note: data generation for crops is incomplete, added `"render_type": "minecraft:cutout_mipped"` manually for transparent crop textures*.
 - Add mod paintings to translations
 - Update licensing & agreement terms
 
