@@ -4,6 +4,7 @@
   <img src="https://user-images.githubusercontent.com/111394123/221363964-08660709-1786-4c2f-8362-d5af43aabfe1.png"/>
 </p>
 
+<br />
 
 [![License - MIT](https://img.shields.io/badge/License-MIT-134074)](https://github.com/LICHPUNK/lichtweaks/blob/master/LICENSE.txt)&nbsp; &nbsp;
 [![Art License - CC BY-NC-ND](https://img.shields.io/badge/Art_License-CC_BY--NC--ND-5f6f92)](https://github.com/LICHPUNK/lichtweaks/blob/master/src/main/resources/assets/lichtweaks/textures/LICENSE.txt)&nbsp; &nbsp;
