@@ -135,16 +135,21 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 ## 2/25/23
 
 ***Visual Progress***:
-- 
+- N/A
 
 
 ***Non-Visual Progress***:
 - Add basic hotkeys method
 
 
-## TBD
+## 3/3/23
 
 ***Visual Progress***:
+###### Add 2 New Tree Types (Necrotic & Spectral, includes 14 New Blocks):
+
+###### Successful 'Necrotic' & 'Spectral' Tree World Generation (textures incomplete):
+![image](https://user-images.githubusercontent.com/111394123/222838258-39929271-0d33-4288-9ca6-b0784ec64219.png)
+
 
 
 ***Non-Visual Progress***:
