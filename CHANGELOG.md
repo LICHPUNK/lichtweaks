@@ -166,11 +166,32 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 ## 3/4/23
 
 ***Visual Progress***:
-###### Shapeless 'Necrotic' & 'Spectral' Wood Recipes:
+###### New 'Necrotic' & 'Spectral' Tree Recipes:
 
 Necrotic Variant             |  Spectral Variant
 :-------------------------:|:-------------------------:
-![image](https://user-images.githubusercontent.com/111394123/222914588-3995e4be-9fea-41c7-addc-da82a1fa16c6.png)  |  ![](https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png)
+*Necrotic Log to Planks*
+![image](https://user-images.githubusercontent.com/111394123/222914588-3995e4be-9fea-41c7-addc-da82a1fa16c6.png)
+*Necrotic Wood to Planks*
+
+*Stripped Necrotic Log to Planks*
+![image](https://user-images.githubusercontent.com/111394123/222914870-179f3e2c-2b0b-4fd8-bc99-8652fe527b0e.png)
+*Stripped Necrotic Wood to Planks*
+![image](https://user-images.githubusercontent.com/111394123/222914919-2dd32c9a-2fc5-43b5-a6d8-2dde6d83b03c.png)
+*Necrotic Log (and related) Smelting*
+![image](https://user-images.githubusercontent.com/111394123/222915213-9489f9d6-a5f1-4c1f-a90f-d390b98153b5.png)
+
+|  
+*Spectral Log to Planks&
+![](https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png)
+*Spectral Wood to Planks*
+
+*Stripped Spectral Log to Planks*
+![image](https://user-images.githubusercontent.com/111394123/222915055-588507c6-5b52-471b-9be4-d40a7f4e7236.png)
+*Stripped Spectral Wood to Planks*
+![image](https://user-images.githubusercontent.com/111394123/222915113-01df1663-55f6-4418-b113-96026debe093.png)
+*Spectral Log (and related) Smelting*
+![image](https://user-images.githubusercontent.com/111394123/222915275-dffc7728-e41a-4438-b3a3-37a8317f76e1.png)
 
 ***Non-Visual Progress***:
 - Add to and revise mod credits
