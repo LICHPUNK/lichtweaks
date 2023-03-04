@@ -147,13 +147,16 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 ***Visual Progress***:
 ###### Add 2 New Tree Types (Necrotic & Spectral, includes 12 New Blocks, 2 New Saplings):
 ![image](https://user-images.githubusercontent.com/111394123/222856928-c4206d60-1e71-4bc9-ad2f-66500fae39e9.png)
-
 ###### Successful 'Necrotic' & 'Spectral' Tree World Generation (textures incomplete):
 ![image](https://user-images.githubusercontent.com/111394123/222838258-39929271-0d33-4288-9ca6-b0784ec64219.png)
 
 
 
 ***Non-Visual Progress***:
+- Add new tree blocks to translations
+- Add all tree-related items/blocks to data generation methods
+- Add world generation methods for new trees
+- Update creative mode tabs
 
 
 ## TBD
