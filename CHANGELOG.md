@@ -145,10 +145,14 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 ## 3/3/23
 
 ***Visual Progress***:
-###### Add 2 New Tree Types (Necrotic & Spectral, includes 12 New Blocks, 2 New Saplings):
+###### Add 2 New Tree Types (Necrotic & Spectral, includes 12 new blocks, 2 new saplings):
 ![image](https://user-images.githubusercontent.com/111394123/222856928-c4206d60-1e71-4bc9-ad2f-66500fae39e9.png)
 ###### Successful 'Necrotic' & 'Spectral' Tree World Generation (textures incomplete):
 ![image](https://user-images.githubusercontent.com/111394123/222838258-39929271-0d33-4288-9ca6-b0784ec64219.png)
+###### Add New 'Mana Water' Fluid Type (non-functional):
+![image](https://user-images.githubusercontent.com/111394123/222873974-9237da56-d376-4bf6-badc-8981be0abc10.png)
+###### Mana Water Bucket Item:
+![image](https://user-images.githubusercontent.com/111394123/222874113-5526ddc9-897f-43ef-95c7-98e6b8537807.png)
 
 
 
