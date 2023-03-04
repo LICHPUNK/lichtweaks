@@ -167,7 +167,7 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 
 ***Visual Progress***:
 ###### Shapeless 'Necrotic' & 'Spectral' Wood Recipes:
-![image]("https://user-images.githubusercontent.com/111394123/222914588-3995e4be-9fea-41c7-addc-da82a1fa16c6.png") ![image]("https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png")
+![image](https://user-images.githubusercontent.com/111394123/222914588-3995e4be-9fea-41c7-addc-da82a1fa16c6.png) ![image](https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png)
 
 
 ***Non-Visual Progress***:
