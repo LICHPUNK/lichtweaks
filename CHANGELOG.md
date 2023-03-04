@@ -187,7 +187,7 @@ Necrotic Variant           |  Spectral Variant
 - Add Blockbench generated 'Magic Shiv' item model files
 - Adjust strength of 'Necrotic' & 'Spectral' tree blocks
 - Add saplings to 'Necrotic' & 'Spectral' tree loot tables
-- 
+- Add more data generation methods for block states, recipes, models
 
 
 ## TBD
