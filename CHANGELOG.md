@@ -168,11 +168,10 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 ***Visual Progress***:
 ###### New 'Necrotic' & 'Spectral' Tree Recipes:
 
-Necrotic Variant             |  Spectral Variant
+Necrotic Variant           |  Spectral Variant
 :-------------------------:|:-------------------------:
 *Necrotic Log to Planks*
-![image](https://user-images.githubusercontent.com/111394123/222914588-3995e4be-9fea-41c7-addc-da82a1fa16c6.png) | *Spectral Log to Planks* 
-![image](https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png)
+![image](https://user-images.githubusercontent.com/111394123/222914588-3995e4be-9fea-41c7-addc-da82a1fa16c6.png) | *Spectral Log to Planks* ![image](https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png)
 *Necrotic Wood to Planks*
 ![image](https://user-images.githubusercontent.com/111394123/222916048-b21db226-4e2d-4654-82de-e1b6e08e22f8.png) | *Spectral Wood to Planks* ![image](https://user-images.githubusercontent.com/111394123/222916073-9d699772-8a5e-4c3c-8da3-460ce3094205.png)
 *Stripped Necrotic Log to Planks*
