@@ -29,7 +29,7 @@ displayURL="https://github.com/LICHPUNK/lichtweaks" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile= "lichtweaks.png" #optional
 # A text field displayed in the mod UI
-credits="Special thanks to  @ModdingByKaupenjoe for the incredibly informative modding tutorial videos." #optional
+credits="I would like to express my sincere gratitudes to @ModdingByKaupenjoe & @Choonster for their incredibly informative online modding resources. I also want to extend a special thanks to the creators of Blockbench for such an intuitive and powerful modeling tool. The selfless work of the community's creators undoubtedly enables the progression of others and I cannot express my appreciation enough.." #optional
 # A text field displayed in the mod UI
 authors="LICHPUNK" #optional
 # Display Test controls the display for your mod in the server connection screen

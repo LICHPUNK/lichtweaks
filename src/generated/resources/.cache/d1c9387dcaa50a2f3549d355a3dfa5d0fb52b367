@@ -1,6 +1,9 @@
-// 1.19.3	2023-02-24T12:02:10.733466	Item Models: lichtweaks
+// 1.19.3	2023-03-03T17:26:42.8735178	Item Models: lichtweaks
 90ec1938e14b68a91486325e1787632fb4086595 assets/lichtweaks/models/item/belladonna.json
 13eb9f9df213a78f56e8c03762b56adf3dd08c07 assets/lichtweaks/models/item/belladonna_seeds.json
+60bc9f0b36aa50d4304a28d48cd291fa884c78fa assets/lichtweaks/models/item/mana_water_bucket.json
 4d6b40ecefbc42ae89bb3046fe213cbe419388ca assets/lichtweaks/models/item/memory_globe.json
 1686d66f4859f6d1ab4eee335b702818e05a17f5 assets/lichtweaks/models/item/moon_shard.json
+8f3eb1dbc873259bfd96505d8ceb29828dc1117e assets/lichtweaks/models/item/necrotic_sapling.json
 51935cd27bd5ad1012cf74483b7270ed0ab1664e assets/lichtweaks/models/item/purified_moon_shard.json
+6d5d5d7d1fd48123dec3d505719e8786635c6fdf assets/lichtweaks/models/item/spectral_sapling.json

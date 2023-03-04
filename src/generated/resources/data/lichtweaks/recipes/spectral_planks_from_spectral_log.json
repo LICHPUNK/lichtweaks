@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "spectral_planks",
+  "ingredients": [
+    {
+      "item": "lichtweaks:spectral_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "lichtweaks:spectral_planks"
+  }
+}

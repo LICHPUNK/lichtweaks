@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lichtweaks:block/stripped_spectral_log",
+    "side": "lichtweaks:block/stripped_spectral_log"
+  }
+}

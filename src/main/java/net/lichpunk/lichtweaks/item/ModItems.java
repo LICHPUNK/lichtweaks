@@ -2,6 +2,7 @@ package net.lichpunk.lichtweaks.item;
 
 import net.lichpunk.lichtweaks.LichTweaks;
 import net.lichpunk.lichtweaks.block.ModBlocks;
+import net.lichpunk.lichtweaks.fluid.ModFluids;
 import net.lichpunk.lichtweaks.item.custom.MemoryGlobeItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -39,6 +40,16 @@ public class ModItems {
                     // MobEffectInstance is given the effect parameters and a probability to occur (0.0F being never occurring)
                     // MobEffects method is given type, duration, & amplifier (0 being level 1)
                     .food(new FoodProperties.Builder().nutrition(2).saturationMod(2f).effect(() -> new MobEffectInstance(MobEffects.POISON, 100, 0), 0.7F).build())));
+
+    public static final RegistryObject<Item> MANA_WATER_BUCKET = ITEMS.register("mana_water_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MANA_WATER,
+                    new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> MAGIC_SHIV = ITEMS.register("magic_shiv",
+            // Setting SwordItem with 10 damage and 5f attack speed
+            () -> new SwordItem(Tiers.STONE, 10, 5f,
+                    new Item.Properties().stacksTo(1)));
+
 
 
     public static void register(IEventBus eventBus) {

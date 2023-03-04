@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lichtweaks:block/necrotic_planks"
+  }
+}

@@ -2,13 +2,16 @@ package net.lichpunk.lichtweaks;
 
 import com.mojang.logging.LogUtils;
 import net.lichpunk.lichtweaks.block.ModBlocks;
+import net.lichpunk.lichtweaks.fluid.ModFluidTypes;
+import net.lichpunk.lichtweaks.fluid.ModFluids;
 import net.lichpunk.lichtweaks.item.ModCreativeModeTab;
 import net.lichpunk.lichtweaks.item.ModItems;
+import net.lichpunk.lichtweaks.networking.ModMessages;
 import net.lichpunk.lichtweaks.painting.ModPaintings;
 import net.lichpunk.lichtweaks.villager.ModVillagers;
-import net.lichpunk.lichtweaks.world.feature.ModConfiguredFeatures;
-import net.lichpunk.lichtweaks.world.feature.ModPlacedFeatures;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -52,6 +55,10 @@ public class LichTweaks {
         // ModVillagers
         ModVillagers.register(modEventBus);
 
+        // ModFluids
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
+
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
 
@@ -64,8 +71,10 @@ public class LichTweaks {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
+            ModMessages.register();
             ModVillagers.registerPOIs();
         });
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
@@ -77,8 +86,10 @@ public class LichTweaks {
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
-
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_MANA_WATER.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_MANA_WATER.get(), RenderType.translucent());
         }
+
     }
 
 
@@ -93,6 +104,10 @@ public class LichTweaks {
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
             event.accept(ModItems.MEMORY_GLOBE);
+            event.accept(ModItems.MANA_WATER_BUCKET);
+
+            // WEAPONS
+            event.accept(ModItems.MAGIC_SHIV);
 
             // BLOCKS
             event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
@@ -100,6 +115,23 @@ public class LichTweaks {
             // CROPS
             event.accept(ModItems.BELLADONNA);
             event.accept(ModItems.BELLADONNA_SEEDS);
+
+            // NATURAL BLOCKS
+            event.accept(ModBlocks.NECROTIC_LOG);
+            event.accept(ModBlocks.NECROTIC_WOOD);
+            event.accept(ModBlocks.STRIPPED_NECROTIC_LOG);
+            event.accept(ModBlocks.STRIPPED_NECROTIC_WOOD);
+            event.accept(ModBlocks.NECROTIC_PLANKS);
+            event.accept(ModBlocks.NECROTIC_LEAVES);
+            event.accept(ModBlocks.NECROTIC_SAPLING);
+            event.accept(ModBlocks.SPECTRAL_LOG);
+            event.accept(ModBlocks.SPECTRAL_WOOD);
+            event.accept(ModBlocks.STRIPPED_SPECTRAL_LOG);
+            event.accept(ModBlocks.STRIPPED_SPECTRAL_WOOD);
+            event.accept(ModBlocks.SPECTRAL_PLANKS);
+            event.accept(ModBlocks.SPECTRAL_LEAVES);
+            event.accept(ModBlocks.SPECTRAL_SAPLING);
+
 
             // ORE BLOCKS
             event.accept(ModBlocks.MOON_SHARD_ORE);
@@ -121,6 +153,24 @@ public class LichTweaks {
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
             event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
             event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
+        }
+
+        // NATURAL BLOCKS
+        if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.NECROTIC_LOG);
+            event.accept(ModBlocks.NECROTIC_WOOD);
+            event.accept(ModBlocks.STRIPPED_NECROTIC_LOG);
+            event.accept(ModBlocks.STRIPPED_NECROTIC_WOOD);
+            event.accept(ModBlocks.NECROTIC_PLANKS);
+            event.accept(ModBlocks.NECROTIC_LEAVES);
+            event.accept(ModBlocks.NECROTIC_SAPLING);
+            event.accept(ModBlocks.SPECTRAL_LOG);
+            event.accept(ModBlocks.SPECTRAL_WOOD);
+            event.accept(ModBlocks.STRIPPED_SPECTRAL_LOG);
+            event.accept(ModBlocks.STRIPPED_SPECTRAL_WOOD);
+            event.accept(ModBlocks.SPECTRAL_PLANKS);
+            event.accept(ModBlocks.SPECTRAL_LEAVES);
+            event.accept(ModBlocks.SPECTRAL_SAPLING);
         }
 
         // FUNCTIONAL
@@ -147,6 +197,9 @@ public class LichTweaks {
             event.accept(ModItems.MOON_SHARD);
             event.accept(ModItems.PURIFIED_MOON_SHARD);
             event.accept(ModItems.MEMORY_GLOBE);
+            event.accept(ModItems.MANA_WATER_BUCKET);
+
+            event.accept(ModItems.MAGIC_SHIV);
 
             event.accept(ModBlocks.PURIFIED_MOON_BLOCK);
 
@@ -157,7 +210,6 @@ public class LichTweaks {
             event.accept(ModBlocks.DEEPSLATE_MOON_SHARD_ORE);
             event.accept(ModBlocks.NETHERRACK_MOON_SHARD_ORE);
             event.accept(ModBlocks.END_STONE_MOON_SHARD_ORE);
-
 
             event.accept(ModBlocks.JUMP_BLOCK);
             event.accept(ModBlocks.SOUL_BEACON_BLOCK);

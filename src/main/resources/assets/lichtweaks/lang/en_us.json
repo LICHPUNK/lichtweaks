@@ -2,11 +2,28 @@
   "item.lichtweaks.moon_shard": "Moon Shard",
   "item.lichtweaks.purified_moon_shard": "Purified Moon Shard",
   "item.lichtweaks.memory_globe": "Memory Globe",
+  "item.lichtweaks.mana_water_bucket": "Mana Bucket",
+  "item.lichtweaks.magic_shiv": "Magic Shiv",
 
   "item.lichtweaks.belladonna": "Belladonna",
   "item.lichtweaks.belladonna_seeds": "Belladonna Seeds",
-
   "block.lichtweaks.belladonna_crop": "Belladonna Crop",
+
+  "block.lichtweaks.necrotic_log": "Necrotic Log",
+  "block.lichtweaks.necrotic_wood": "Necrotic Wood",
+  "block.lichtweaks.stripped_necrotic_log": "Stripped Necrotic Log",
+  "block.lichtweaks.stripped_necrotic_wood": "Stripped Necrotic Wood",
+  "block.lichtweaks.necrotic_planks": "Necrotic Planks",
+  "block.lichtweaks.necrotic_leaves": "Necrotic Leaves",
+  "block.lichtweaks.necrotic_sapling": "Necrotic Sapling",
+
+  "block.lichtweaks.spectral_log": "Spectral Log",
+  "block.lichtweaks.spectral_wood": "Spectral Wood",
+  "block.lichtweaks.stripped_spectral_log": "Stripped Spectral Log",
+  "block.lichtweaks.stripped_spectral_wood": "Stripped Spectral Wood",
+  "block.lichtweaks.spectral_planks": "Spectral Planks",
+  "block.lichtweaks.spectral_leaves": "Spectral Leaves",
+  "block.lichtweaks.spectral_sapling": "Spectral Sapling",
 
 
   "block.lichtweaks.moon_shard_ore": "Moon Shard Ore",
@@ -25,15 +42,22 @@
   "painting.lichtweaks.elixirs": "Elixirs",
   "painting.lichtweaks.reincarnate": "Reincarnate",
   "painting.lichtweaks.sacrifice": "Sacrifice",
+  "painting.lichtweaks.midnight": "Midnight",
   "painting.lichtweaks.tower": "Tower",
   "painting.lichtweaks.wanderer": "Wanderer",
   "painting.lichtweaks.weep": "Weep",
+
+
+  "description.lichtweaks.memory_globe": "Right click to get a random number!",
 
   "prompt.lichtweaks.tooltip": "Press SHIFT for more info",
 
   "message.lichtweaks.roll": "You rolled a ",
 
-  "description.lichtweaks.memory_globe": "Right click to get a random number!"
+  "key.category.lichtweaks.sample": "LichTweaks Mod",
+  "key.lichtweaks.function": "Do Function",
+  "key.lichtweaks.c2s": "C2S Test"
+
 
 
 }

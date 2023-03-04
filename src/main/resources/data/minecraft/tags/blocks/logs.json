@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "lichtweaks:necrotic_log",
+    "lichtweaks:necrotic_wood",
+    "lichtweaks:stripped_necrotic_log",
+    "lichtweaks:stripped_necrotic_wood",
+    "lichtweaks:spectral_log",
+    "lichtweaks:spectral_wood",
+    "lichtweaks:stripped_spectral_log",
+    "lichtweaks:stripped_spectral_wood"
+  ]
+}

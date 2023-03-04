@@ -2,10 +2,11 @@
   "values": [
     "lichtweaks:atropa_belladonna",
     "lichtweaks:elixirs",
-    "lichtweaks:sacrifice",
+    "lichtweaks:midnight",
     "lichtweaks:reincarnate",
+    "lichtweaks:sacrifice",
     "lichtweaks:tower",
-    "lichtweaks:weep",
-    "lichtweaks:wanderer"
+    "lichtweaks:wanderer",
+    "lichtweaks:weep"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "necrotic_planks",
+  "ingredients": [
+    {
+      "item": "lichtweaks:stripped_necrotic_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "lichtweaks:necrotic_planks"
+  }
+}

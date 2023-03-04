@@ -14,23 +14,28 @@ public class ModPaintings {
     public static final RegistryObject<PaintingVariant> ATROPA_BELLADONNA = PAINTING_VARIANTS.register("atropa_belladonna",
             () -> new PaintingVariant(16, 16));
 
-    public static final RegistryObject<PaintingVariant> SACRIFICE = PAINTING_VARIANTS.register("sacrifice",
-            () -> new PaintingVariant(16, 16));
-
     public static final RegistryObject<PaintingVariant> ELIXIRS = PAINTING_VARIANTS.register("elixirs",
+            () -> new PaintingVariant(32, 32));
+
+    public static final RegistryObject<PaintingVariant> MIDNIGHT = PAINTING_VARIANTS.register("midnight",
             () -> new PaintingVariant(32, 32));
 
     public static final RegistryObject<PaintingVariant> REINCARNATE = PAINTING_VARIANTS.register("reincarnate",
             () -> new PaintingVariant(48, 32));
 
+    public static final RegistryObject<PaintingVariant> SACRIFICE = PAINTING_VARIANTS.register("sacrifice",
+            () -> new PaintingVariant(16, 16));
+
+
     public static final RegistryObject<PaintingVariant> TOWER = PAINTING_VARIANTS.register("tower",
             () -> new PaintingVariant(16, 32));
+
+    public static final RegistryObject<PaintingVariant> WANDERER = PAINTING_VARIANTS.register("wanderer",
+            () -> new PaintingVariant(32, 32));
 
     public static final RegistryObject<PaintingVariant> WEEP = PAINTING_VARIANTS.register("weep",
             () -> new PaintingVariant(32, 32));
 
-    public static final RegistryObject<PaintingVariant> WANDERER = PAINTING_VARIANTS.register("wanderer",
-            () -> new PaintingVariant(32, 32));
 
 
     public static void register(IEventBus eventBus) {

@@ -11,9 +11,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/charcoal_from_smelting_necrotic_wood": {
+    "criteria": {
+      "has_necrotic_wood": "2023-03-04 10:57:56 -0500"
     },
     "done": true
   },
@@ -29,9 +41,33 @@
     },
     "done": true
   },
+  "lichtweaks:recipes/misc/spectral_planks_from_spectral_wood": {
+    "criteria": {
+      "has_spectral_wood": "2023-03-04 10:58:48 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2023-02-22 17:12:35 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/spectral_planks_from_stripped_spectral_wood": {
+    "criteria": {
+      "has_stripped_spectral_wood": "2023-03-04 10:20:39 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/spectral_planks_from_spectral_log": {
+    "criteria": {
+      "has_spectral_log": "2023-03-04 10:20:33 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/spectral_planks_from_stripped_spectral_log": {
+    "criteria": {
+      "has_stripped_spectral_log": "2023-03-04 10:20:38 -0500"
     },
     "done": true
   },
@@ -44,6 +80,12 @@
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/necrotic_planks_from_necrotic_log": {
+    "criteria": {
+      "has_necrotic_log": "2023-03-04 10:20:25 -0500"
     },
     "done": true
   },
@@ -73,6 +115,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
       "has_logs": "2023-02-24 12:07:53 -0500"
@@ -91,6 +139,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/charcoal_from_smelting_necrotic_log": {
+    "criteria": {
+      "has_necrotic_log": "2023-03-04 10:20:25 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/building_blocks/necrotic_wood_from_necrotic_log": {
+    "criteria": {
+      "has_log": "2023-03-04 11:43:23 -0500"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-02-21 23:39:00 -0500"
@@ -100,6 +166,12 @@
   "lichtweaks:recipes/misc/purified_moon_block": {
     "criteria": {
       "has_purified_moon_shard": "2023-02-24 12:11:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
     },
     "done": true
   },
@@ -121,6 +193,12 @@
     },
     "done": true
   },
+  "lichtweaks:recipes/misc/charcoal_from_smelting_spectral_log": {
+    "criteria": {
+      "has_spectral_log": "2023-03-04 10:20:33 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2023-02-22 14:57:51 -0500"
@@ -139,6 +217,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2023-02-20 16:27:42 -0500"
@@ -148,6 +232,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2023-02-22 09:58:17 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/necrotic_planks_from_necrotic_wood": {
+    "criteria": {
+      "has_necrotic_wood": "2023-03-04 10:57:56 -0500"
     },
     "done": true
   },
@@ -199,6 +289,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2023-03-03 22:34:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_item_frame": "2023-02-20 16:06:30 -0500"
@@ -214,6 +316,12 @@
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2023-02-22 14:57:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2023-03-04 08:14:05 -0500"
     },
     "done": true
   },
@@ -249,6 +357,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/necrotic_planks_from_stripped_necrotic_wood": {
+    "criteria": {
+      "has_stripped_necrotic_wood": "2023-03-04 10:20:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2023-02-22 14:57:51 -0500"
@@ -258,6 +378,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2023-02-20 16:10:41 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/charcoal_from_smelting_spectral_wood": {
+    "criteria": {
+      "has_spectral_wood": "2023-03-04 10:58:48 -0500"
     },
     "done": true
   },
@@ -279,9 +405,27 @@
     },
     "done": true
   },
+  "lichtweaks:recipes/misc/stick_from_necrotic_planks": {
+    "criteria": {
+      "has_necrotic_planks": "2023-03-04 11:43:45 -0500"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2023-02-20 16:10:41 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/necrotic_planks_from_stripped_necrotic_log": {
+    "criteria": {
+      "has_stripped_necrotic_log": "2023-03-04 10:20:27 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/misc/stick_from_spectral_planks": {
+    "criteria": {
+      "has_spectral_planks": "2023-03-04 11:43:50 -0500"
     },
     "done": true
   },
@@ -309,9 +453,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2023-03-03 18:41:46 -0500"
+    },
+    "done": true
+  },
   "lichtweaks:recipes/misc/purified_moon_shard_from_blasting_moon_shard": {
     "criteria": {
       "has_moon_shard": "2023-02-24 15:02:19 -0500"
+    },
+    "done": true
+  },
+  "lichtweaks:recipes/building_blocks/spectral_wood_from_spectral_log": {
+    "criteria": {
+      "has_log": "2023-03-04 11:43:23 -0500"
     },
     "done": true
   },

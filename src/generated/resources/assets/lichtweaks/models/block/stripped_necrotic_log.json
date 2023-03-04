@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lichtweaks:block/stripped_necrotic_log_top",
+    "side": "lichtweaks:block/stripped_necrotic_log"
+  }
+}

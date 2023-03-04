@@ -10,28 +10,36 @@ import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
 import java.util.function.Supplier;
 
+// Gets passed to ModWorldGenProvider class for data generation
 public class ModConfiguredFeatures {
 
+    /* CUSTOM ORE KEYS */
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_MOON_SHARD_ORE_KEY = registerKey("overworld_moon_shard_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_MOON_SHARD_ORE_KEY = registerKey("nether_moon_shard_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_MOON_SHARD_ORE_KEY = registerKey("end_moon_shard_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NECROTIC_KEY = registerKey("necrotic");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SPECTRAL_KEY = registerKey("spectral");
 
-    // CUSTOM ORE GENERATION
+
+    /* CUSTOM ORE GENERATION */
 
     // Overworld Moon Shard Ore
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_MOON_SHARD_ORES = Suppliers.memoize(() -> List.of(
@@ -55,10 +63,34 @@ public class ModConfiguredFeatures {
         register(context, OVERWORLD_MOON_SHARD_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_MOON_SHARD_ORES.get(), 12));
         register(context, END_MOON_SHARD_ORE_KEY, Feature.ORE, new OreConfiguration(END_MOON_SHARD_ORES.get(), 12));
         register(context, NETHER_MOON_SHARD_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_MOON_SHARD_ORES.get(), 12));
+
+        register(context, NECROTIC_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                // Designating the log type
+                BlockStateProvider.simple(ModBlocks.NECROTIC_LOG.get()),
+                // Trunk pattern to be used
+                new StraightTrunkPlacer(5, 6, 3),
+                // Designating leaves type
+                BlockStateProvider.simple(ModBlocks.NECROTIC_LEAVES.get()),
+                // Leaves pattern to be used
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
+                // Tree spawning
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, SPECTRAL_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                // Designating the log type
+                BlockStateProvider.simple(ModBlocks.SPECTRAL_LOG.get()),
+                // Trunk pattern to be used
+                new StraightTrunkPlacer(5, 6, 3),
+                // Designating leaves type
+                BlockStateProvider.simple(ModBlocks.SPECTRAL_LEAVES.get()),
+                // Leaves pattern to be used
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
+                // Tree spawning
+                new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 
 
-    // HELPER METHODS
+    /* HELPER METHODS */
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(LichTweaks.MOD_ID, name));
     }
