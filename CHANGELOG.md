@@ -179,10 +179,7 @@ Necrotic Variant             |  Spectral Variant
 *Stripped Necrotic Wood to Planks*
 ![image](https://user-images.githubusercontent.com/111394123/222914919-2dd32c9a-2fc5-43b5-a6d8-2dde6d83b03c.png)
 *Necrotic Log (and related) Smelting*
-![image](https://user-images.githubusercontent.com/111394123/222915213-9489f9d6-a5f1-4c1f-a90f-d390b98153b5.png)
-|  
-*Spectral Log to Planks&
-![](https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png)
+![image](https://user-images.githubusercontent.com/111394123/222915213-9489f9d6-a5f1-4c1f-a90f-d390b98153b5.png) |  *Spectral Log to Planks& ![](https://user-images.githubusercontent.com/111394123/222914561-c7bc0fd3-f19c-4e21-919d-086bca47f1e8.png)
 *Spectral Wood to Planks*
 ![image](https://user-images.githubusercontent.com/111394123/222916073-9d699772-8a5e-4c3c-8da3-460ce3094205.png)
 *Stripped Spectral Log to Planks*
