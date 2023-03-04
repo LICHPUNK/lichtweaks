@@ -177,7 +177,6 @@ Necrotic Variant           |  Spectral Variant
 *Necrotic Logs to Wood* ![image](https://user-images.githubusercontent.com/111394123/222918356-b714aee5-2e70-46e4-ae6a-0091b96f8366.png) | *Spectral Logs to Wood* ![image](https://user-images.githubusercontent.com/111394123/222918428-6fa73122-0e15-4bae-9178-fee510ce0633.png)
 *Necrotic Planks to Sticks* ![image](https://user-images.githubusercontent.com/111394123/222918470-aa44feb0-92f9-4a86-b35e-2936d0e3cc01.png) | *Spectral Planks to Sticks* ![image](https://user-images.githubusercontent.com/111394123/222918513-83c5a0e8-c6b3-45b0-ab46-bef230a02681.png)
 *Necrotic Plank Tool Recipes (all wooden tools)* ![image](https://user-images.githubusercontent.com/111394123/222923294-f7dad5e6-73cd-4451-af13-3587bdce5dfd.png) | *Spectral Plank Tool Recipes (all wooden tools)* ![image](https://user-images.githubusercontent.com/111394123/222923268-9ac5ce5c-4749-4c27-ba96-d57f48189fef.png)
-
 *Necrotic Log (and related) Smelting* ![image](https://user-images.githubusercontent.com/111394123/222915213-9489f9d6-a5f1-4c1f-a90f-d390b98153b5.png) | *Spectral Log (and related) Smelting* ![image](https://user-images.githubusercontent.com/111394123/222915275-dffc7728-e41a-4438-b3a3-37a8317f76e1.png)
 
 
