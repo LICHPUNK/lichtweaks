@@ -163,12 +163,17 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 - Update creative mode tabs
 
 
-## TBD
+## 3/4/23
 
 ***Visual Progress***:
 
 
 ***Non-Visual Progress***:
+- Add to and revise mod credits
+- Add Blockbench generated 'Magic Shiv' item model files
+- Adjust strength of 'Necrotic' & 'Spectral' tree blocks
+- Add saplings to 'Necrotic' & 'Spectral' tree loot tables
+- 
 
 
 ## TBD
