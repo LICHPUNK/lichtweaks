@@ -183,6 +183,10 @@ Necrotic Variant           |  Spectral Variant
 ###### New 'Magic Shiv' Weapon & Model (name will change, incomplete)
 ![image](https://user-images.githubusercontent.com/111394123/222919095-a02adac0-75fa-44a8-9cc5-8a97b1954013.png)
 
+###### New 'Alchemical Furnace' Model:
+![image](https://user-images.githubusercontent.com/111394123/222941910-9a91eba8-2768-480b-b965-706055a11ad6.png)
+
+
 
 
 
