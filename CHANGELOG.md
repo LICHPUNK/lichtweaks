@@ -166,7 +166,7 @@ The changelog for LichTweaks will be utilized as a formal place to document the 
 ## 3/4/23
 
 ***Visual Progress***:
-###### New 'Necrotic' & 'Spectral' Tree Recipes:
+###### Add 'Necrotic' & 'Spectral' Tree Recipes:
 
 Necrotic Variant           |  Spectral Variant
 :-------------------------:|:-------------------------:
@@ -180,10 +180,10 @@ Necrotic Variant           |  Spectral Variant
 *Necrotic Log (and related) Smelting* ![image](https://user-images.githubusercontent.com/111394123/222915213-9489f9d6-a5f1-4c1f-a90f-d390b98153b5.png) | *Spectral Log (and related) Smelting* ![image](https://user-images.githubusercontent.com/111394123/222915275-dffc7728-e41a-4438-b3a3-37a8317f76e1.png)
 
 
-###### New 'Magic Shiv' Weapon & Model (name will change, incomplete)
+###### Created 'Magic Shiv' Weapon & Model (name will change, incomplete)
 ![image](https://user-images.githubusercontent.com/111394123/222919095-a02adac0-75fa-44a8-9cc5-8a97b1954013.png)
 
-###### New 'Alchemical Furnace' Model:
+###### Created 'Alchemical Furnace' Model:
 ![image](https://user-images.githubusercontent.com/111394123/222941910-9a91eba8-2768-480b-b965-706055a11ad6.png)
 
 
