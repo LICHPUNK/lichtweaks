@@ -21,7 +21,7 @@ The current vision for the mod intends to add custom content and assets with a c
 
 <br />
 
-*Wanna see what's new? See the most recent [update](https://github.com/LICHPUNK/lichtweaks/blob/master/CHANGELOG.md#22523)!*
+*Wanna see what's new? See the most recent [update](https://github.com/LICHPUNK/lichtweaks/blob/master/CHANGELOG.md#3623)!*
 *Review the [changelog](https://github.com/LICHPUNK/lichtweaks/blob/master/CHANGELOG.md) to see the entirety of changes being made.*
 
 *For legal rights, review [general code licensing](https://github.com/LICHPUNK/lichtweaks/blob/master/LICENSE.txt); review [asset rights](https://github.com/LICHPUNK/lichtweaks/blob/master/src/main/resources/assets/lichtweaks/textures/LICENSE.txt) for information specific textures & art.*
