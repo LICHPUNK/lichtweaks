@@ -199,12 +199,15 @@ Necrotic Variant           |  Spectral Variant
 - Add more data generation methods for block states, recipes, models
 
 
-## TBD
+## 3/6/23
 
 ***Visual Progress***:
 
 
 ***Non-Visual Progress***:
+- Add methods for custom block entity
+- Add methods for 'Alchemical Furnace' block entity
+- Add method for 'Alchemical Furnace' block
 
 
 ## TBD
